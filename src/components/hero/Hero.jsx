@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // ✅ Corrected import
+import { Link } from "react-router-dom"; 
 import { IoLogoAppleAppstore } from "react-icons/io5";
 import { FaAngleRight } from "react-icons/fa6";
 import ThrdMid from "./ThrdMid";
@@ -45,7 +45,7 @@ const Hero = () => {
         <div className="ml-32 pt-24 grid grid-cols-9 mr-4  items-center  group relative">
           {/* Mac */}
           <div className="text-center">
-            <Link to="/shopmac">
+            <Link to="/mac">
               <img
                 src="/mac.png"
                 alt="Mac"
@@ -57,7 +57,7 @@ const Hero = () => {
 
           {/* iPhone */}
           <div className="text-center">
-            <Link to="/shopiphone">
+            <Link to="/iphone">
               <img
                 src="/iphone.png"
                 alt="iPhone"
@@ -69,7 +69,7 @@ const Hero = () => {
 
           {/* ipad */}
           <div className="text-center">
-            <Link to="/shopipad">
+            <Link to="/ipad">
               <img
                 src="ipad.png"
                 alt="ipad"

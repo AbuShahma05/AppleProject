@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-100 text-gray-700 px-32 py-16">
+    <div className="bg-gray-100 text-gray-700 px-32 py-32 ">
       {/* Apple Store Online */}
       <div className="flex items-center space-x-2 text-sm mb-6">
         <FaApple className="text-xl" />

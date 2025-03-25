@@ -5,8 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
-import "./style.css"; // Make sure this file is correctly imported
-import { motion } from "motion/react";
+import "./style.css"; 
 
 const ThrdMid = () => {
   const swiperRef = useRef(null);
