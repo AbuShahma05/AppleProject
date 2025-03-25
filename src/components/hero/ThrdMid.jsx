@@ -44,11 +44,11 @@ const ThrdMid = () => {
             <img
               src="macbookair.jpeg"
               alt="macbook"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[370px] left-8 text-white">
               <p className="text-xl font-bold text-black font-[Inter]">
                 MacBook Air
               </p>
@@ -64,11 +64,11 @@ const ThrdMid = () => {
             <img
               src="iphone16pro.jpeg"
               alt="iphone"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[370px] left-8 text-white">
               <p className="text-xl font-bold text-white font-[Inter]">
                 iPhone 16 Pro
               </p>
@@ -84,11 +84,11 @@ const ThrdMid = () => {
             <img
               src="ipad.jpeg"
               alt="ipad"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[390px] left-8 text-white">
               <p className="text-xl font-bold text-black font-[Inter]">iPad</p>
               <span className="text-lg text-black">From ₹34900.00‡</span>
             </div>
@@ -98,11 +98,11 @@ const ThrdMid = () => {
             <img
               src="iphone16e.jpeg"
               alt="iphone16e"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[370px] left-8 text-white">
               <p className="text-xl font-bold text-black font-[Inter]">
                 iPhone 16e
               </p>
@@ -118,11 +118,11 @@ const ThrdMid = () => {
             <img
               src="macstudio.jpeg"
               alt="macstudio"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[370px] left-8 text-white">
               <p className="text-xl font-bold text-black font-[Inter]">
                 Mac Studio
               </p>
@@ -138,11 +138,11 @@ const ThrdMid = () => {
             <img
               src="iphone16.jpeg"
               alt="iphone16"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-[90px] left-8 text-white">
+            <div className="absolute bottom-[370px] left-8 text-white">
               <p className="text-xl font-bold text-white font-[Inter]">
                 iPhone 16
               </p>
@@ -211,7 +211,7 @@ const ThrdMid = () => {
             <img
               src="applewatchultra2.jpeg"
               alt="applwatchultra2"
-              className="w-[400px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[400px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}

@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import { motion, AnimatePresence } from "motion/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/hero/Hero";
@@ -26,12 +31,46 @@ const AnimatedRoutes = () => {
 
   return (
     <AnimatePresence exitBeforeEnter>
-      <motion.div key={location.pathname} initial="initial" animate="animate" exit="exit" variants={pageVariants}>
+      <motion.div
+        key={location.pathname}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        variants={pageVariants}
+      >
         <Routes location={location}>
-          <Route path="/" element={<Layout><Hero /></Layout>} />
-          <Route path="/mac" element={<Layout><Mac /></Layout>} />
-          <Route path="/ipad" element={<Layout><Ipad /></Layout>} />
-          <Route path="/iphone" element={<Layout><Iphone /></Layout>} />
+          <Route
+            path="/"
+            element={
+              <Layout>
+                <Hero />
+              </Layout>
+            }
+          />
+          <Route
+            path="/mac"
+            element={
+              <Layout>
+                <Mac />
+              </Layout>
+            }
+          />
+          <Route
+            path="/ipad"
+            element={
+              <Layout>
+                <Ipad />
+              </Layout>
+            }
+          />
+          <Route
+            path="/iphone"
+            element={
+              <Layout>
+                <Iphone />
+              </Layout>
+            }
+          />
         </Routes>
       </motion.div>
     </AnimatePresence>

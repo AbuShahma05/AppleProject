@@ -34,7 +34,7 @@ const Mac = () => {
           <div>
             <img
               src="/mac/macbookair.png"
-              alt="macbookpro"
+              alt="macbookair"
               className="h-16 w-28 "
             />
             <p className="pl-2 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
@@ -233,7 +233,7 @@ const Mac = () => {
             <SwiperSlide>
               <img
                 src="/mac/ourvalues.jpg"
-                alt="buildtostand"
+                alt="ourvalues"
                 className="w-[372px] h-[680px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
               />
 

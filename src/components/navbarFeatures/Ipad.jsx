@@ -15,53 +15,41 @@ const Ipad = () => {
           className="pt-28 pl-40 items-center group relative grid grid-cols-11 "
         >
           <div>
-            <img
-              src="/ipad/ipadpro.svg"
-              alt="macbookair"
-              className="h-16 w-24 "
-            />
+            <img src="/ipad/ipadpro.svg" alt="ipadpro" className="h-16 w-24 " />
             <p className="pl-4 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               Ipad pro
             </p>
           </div>
           <div>
-            <img
-              src="/ipad/ipadair.svg"
-              alt="macbookpro"
-              className="h-16 w-24 "
-            />
+            <img src="/ipad/ipadair.svg" alt="ipadair" className="h-16 w-24 " />
             <p className="pl-4  opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               iPad Air
             </p>
           </div>
           <div>
-            <img src="/ipad/ipad.svg" alt="imac" className="h-16 w-12" />
+            <img src="/ipad/ipad.svg" alt="ipad" className="h-16 w-12" />
             <p className="pl-2 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               iPad
             </p>
           </div>
           <div>
-            <img src="/ipad/ipadmini.svg" alt="macmini" className="h-16 w-8 " />
+            <img
+              src="/ipad/ipadmini.svg"
+              alt="ipadmini"
+              className="h-16 w-8 "
+            />
             <p className="opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               iPad mini
             </p>
           </div>
           <div>
-            <img
-              src="/ipad/compare.svg"
-              alt="macstudio"
-              className="h-16 w-20 "
-            />
+            <img src="/ipad/compare.svg" alt="compare" className="h-16 w-20 " />
             <p className="pl-2 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               Compare
             </p>
           </div>
           <div>
-            <img
-              src="/ipad/pencil.svg"
-              alt="macstudio"
-              className="h-16 w-20 "
-            />
+            <img src="/ipad/pencil.svg" alt="pencil" className="h-16 w-20 " />
             <p className="opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               Apple Pencil
             </p>
@@ -69,7 +57,7 @@ const Ipad = () => {
           <div>
             <img
               src="/ipad/keyboard.svg"
-              alt="macstudio"
+              alt="keyboard"
               className="h-16 w-20 "
             />
             <p className=" opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
@@ -79,7 +67,7 @@ const Ipad = () => {
           <div>
             <img
               src="/ipad/accessories.svg"
-              alt="macstudio"
+              alt="accessories"
               className="h-16 w-20 "
             />
             <p className=" opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
@@ -87,21 +75,13 @@ const Ipad = () => {
             </p>
           </div>
           <div>
-            <img
-              src="/ipad/ipados.svg"
-              alt="macstudio"
-              className="h-16 w-20 "
-            />
+            <img src="/ipad/ipados.svg" alt="ipados" className="h-16 w-20 " />
             <p className="pl-2 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               iPadOS 18
             </p>
           </div>
           <div>
-            <img
-              src="/ipad/shopipad.svg"
-              alt="macstudio"
-              className="h-16 w-20 "
-            />
+            <img src="/ipad/shopipad.svg" alt="shopid" className="h-16 w-20 " />
             <p className="pl-2 opacity-70 hover:opacity-100 hover:text-black font-[Inter]">
               Shop iPad
             </p>

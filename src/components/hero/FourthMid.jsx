@@ -43,15 +43,16 @@ const FourthMid = () => {
             <img
               src="specialist.jpeg"
               alt="specialist"
-              className="w-[480px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[480px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-100 left-4 right-4 text-white text-center">
+            <div className="absolute bottom-[370px] left-4 right-4 text-white text-center">
               <p className="text-black mr-52">Apple Specialist</p>
 
-              <p className="text-black text-xl font-bold font-[Inter]">
-                Shop one on one with a specialist online.
+              <p className="text-black text-xl pt-2  font-bold font-[Inter]">
+                Shop one on one with a specialist <br />{" "}
+                <span className="pr-65">online</span>.
               </p>
             </div>
           </SwiperSlide>
@@ -59,18 +60,20 @@ const FourthMid = () => {
           <SwiperSlide>
             <img
               src="session.jpeg"
-              alt="store"
-              className="w-[480px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              alt="session"
+              className="w-[480px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-95 left-4 right-4 text-white text-center">
+            <div className="absolute bottom-[330px] pl-4 pr-4     text-white ">
               <p className="text-black text-xl font-bold font-[Inter]">
-                Join free sessions at your Apple Store
+                Join free sessions at your <br />
+                <span>Apple Store</span>
               </p>
-              <p className="text-black">
-                Learn about the latest features and grow how to go further with
-                your Apple devices
+              <p className="text-black pt-2 ">
+                Learn about the latest features and grow how to go further{" "}
+                <br />
+                <span>with your Apple devices</span>
               </p>
             </div>
           </SwiperSlide>
@@ -79,11 +82,11 @@ const FourthMid = () => {
             <img
               src="business.jpeg"
               alt="business"
-              className="w-[480px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[480px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-95 left-4 right-4 text-white text-center">
+            <div className="absolute bottom-[380px] left-4 right-4 text-white text-">
               <p className="mr-70">Business</p>
               <p className="text-white text-xl font-bold font-[Inter]">
                 From enterprise to small business, we'll work with you.
@@ -95,11 +98,11 @@ const FourthMid = () => {
             <img
               src="gettoknow.jpeg"
               alt="gettoknow"
-              className="w-[480px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[480px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-105 left-4 right-4 text-white text-center">
+            <div className="absolute bottom-[390px] left-4 right-4 text-white text-center">
               <p className="text-black text-xl font-bold font-[Inter]">
                 Get to know your new device with personal setup
               </p>
@@ -110,11 +113,11 @@ const FourthMid = () => {
             <img
               src="watchandlearn.jpeg"
               alt="watchandlearn"
-              className="w-[480px] h-[500px] object-cover rounded-xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
+              className="w-[480px] h-[500px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
             />
 
             {/* text on images */}
-            <div className="absolute bottom-105 left-4 right-4 text-white text-center">
+            <div className="absolute bottom-[390px] left-4 right-4 text-white text-center">
               <p className="text-black text-xl font-bold font-[Inter]">
                 Need Support? Our teams are here for you.
               </p>

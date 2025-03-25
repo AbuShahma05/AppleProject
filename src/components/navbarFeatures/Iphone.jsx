@@ -103,14 +103,14 @@ const Iphone = () => {
             <SwiperSlide>
               <img
                 src="/iphone/powerful.jpg"
-                alt="macintelligence"
+                alt="powerful"
                 className="w-[372px] h-[680px] object-cover rounded-2xl cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:-translate-y-1"
               />
 
               {/* Text on Image */}
               <div className="absolute bottom-[580px]">
                 <p className="text-md font-semibold text-white pl-6 font-[Inter] ">
-                  Apple Intelligence 
+                  Apple Intelligence
                 </p>
                 <p className="text-2xl font-semibold text-white pl-4 font-[Inter] leading-snug">
                   Powerful possibilities.
@@ -168,7 +168,8 @@ const Iphone = () => {
                   Innovation
                 </p>
                 <p className="text-2xl font-semibold text-black pl-4 font-[Inter] leading-snug">
-                  Beautiful and durable,<br />
+                  Beautiful and durable,
+                  <br />
                   <span>by design.</span>
                 </p>
               </div>
@@ -187,7 +188,7 @@ const Iphone = () => {
                   Environment
                 </p>
                 <p className="text-2xl font-semibold text-black pl-4 font-[Inter] leading-snug">
-                 Recycle. Reuse. Repeat.
+                  Recycle. Reuse. Repeat.
                 </p>
               </div>
             </SwiperSlide>
@@ -205,8 +206,8 @@ const Iphone = () => {
                   Privacy
                 </p>
                 <p className="text-2xl font-semibold text-white pl-4 font-[Inter] leading-snug">
-                 Your data. <br />
-                 <span>Just where you want it.</span>
+                  Your data. <br />
+                  <span>Just where you want it.</span>
                 </p>
               </div>
             </SwiperSlide>
@@ -229,9 +230,8 @@ const Iphone = () => {
                 </p>
               </div>
             </SwiperSlide>
- 
 
-          <SwiperSlide>
+            <SwiperSlide>
               <img
                 src="/iphone/helpful.jpg"
                 alt="helpful"
@@ -249,8 +249,7 @@ const Iphone = () => {
                 </p>
               </div>
             </SwiperSlide>
-
-            </Swiper>
+          </Swiper>
 
           {/* Right Navigation Button */}
           <button
@@ -262,7 +261,9 @@ const Iphone = () => {
         </div>
         {/* bottom text */}
         <div className="pl-24 pt-32  ">
-          <h2 className="text-5xl font-semibold fot-[Inter]">iPhone essentials.</h2>
+          <h2 className="text-5xl font-semibold fot-[Inter]">
+            iPhone essentials.
+          </h2>
         </div>
 
         <div className="flex justify-center pt-32">
@@ -271,7 +272,7 @@ const Iphone = () => {
             <div className="w-[45%] text-left">
               <h2 className="text-3xl font-semibold">iPhone accessories</h2>
               <p className="text-gray-600 mt-2">
-                Explore colourful cases, USB-C power adapter, 
+                Explore colourful cases, USB-C power adapter,
                 <br />
                 <span>Magsafe accessories and more.</span>
               </p>
@@ -283,7 +284,7 @@ const Iphone = () => {
               </a>
               <img
                 src="/iphone/accessories.jpg"
-                alt="keyboard"
+                alt="accessories"
                 className="mt-6 w-full rounded-lg"
               />
             </div>
@@ -294,7 +295,9 @@ const Iphone = () => {
               <p className="text-gray-600 mt-2">
                 Attach one key to your keys. Put another in Your
                 <br />
-                <span>backpacks. if they're misplaced, just use the Find My app.</span>
+                <span>
+                  backpacks. if they're misplaced, just use the Find My app.
+                </span>
               </p>
               <a
                 href="#"
@@ -311,7 +314,7 @@ const Iphone = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
